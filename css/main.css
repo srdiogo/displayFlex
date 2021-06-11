@@ -22,9 +22,9 @@ h1{
     border-collapse: collapse;
     padding: 5px;
 }
-.col{
+.colName{
     width: 33%;
-    display: flex;
+    
     justify-content: center;
     font-weight: bold;
     font-size: 18px;
@@ -37,9 +37,9 @@ h1{
 }
 .cell{
     width: 33%;
-    display: flex;
-    border: 1px solid black;
-    padding:5px;
+        border: 1px solid black;
+        text-align: left;
+        padding:5px;
 }
 .button {
     background-color: aquamarine;
