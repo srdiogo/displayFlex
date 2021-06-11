@@ -24,7 +24,8 @@ h1{
 }
 .col{
     width: 33%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 18px;
     border: 1px solid rgb(0, 0, 0);
@@ -36,9 +37,9 @@ h1{
 }
 .cell{
     width: 33%;
-        border: 1px solid black;
-        text-align: left;
-        padding:5px;
+    display: flex;
+    border: 1px solid black;
+    padding:5px;
 }
 .button {
     background-color: aquamarine;
