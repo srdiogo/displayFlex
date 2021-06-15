@@ -65,24 +65,23 @@ h1{
 .tooltip{
     border-radius: 50%;
     border: 2px solid rgb(0, 0, 0);
-    background-color: aquamarine;
-    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
     bottom: 5px;
     right: 5px;
     margin: 10px 10px 15px 15px;
     width: fit-content;
-    background: url(/img/questionmark.svg);
+    background-image: url(/img/questionmark.svg);
 }
-.tooltip::after {
+.tooltipText {
     visibility: hidden;
-    content: "Boa Pergunta...";
     position: absolute;
     padding: 5px;
     margin: 15px -10px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    transition: visibility 0.3s;
   }
-  .tooltip:hover:after {
+  .tooltip:hover .tooltipText {
     visibility: visible;
-    
   }
