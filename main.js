@@ -29,10 +29,7 @@ const torta = (x, y) => {
   if (typeof(x||y) !== 'number') 
     return "O argumento não é um número";
   for (n=1; n<=x; n++){
-    if(n % y !== 0) 
-      console.log(n);
-    else 
-      console.log("torta");
+    n % y !== 0 ? console.log(n): console.log("torta");
   }; 
 };
 torta(10,3);
